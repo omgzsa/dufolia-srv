@@ -41,9 +41,9 @@
       "type": "uid",
       "targetField": "name"
     },
-    "categories": {
+    "category": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "products"
     }
